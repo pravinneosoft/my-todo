@@ -7,6 +7,7 @@ import { TodosComponent } from './mycompenent/todos/todos.component';
 import { TodoItemsComponent } from './mycompenent/todo-items/todo-items.component';
 import { AddTodoComponent } from './mycompenent/add-todo/add-todo.component';
 import { FormsModule } from '@angular/forms';
+import { AboutComponent } from './mycompenent/about/about.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     TodosComponent,
     TodoItemsComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutComponent
    
 
   ],

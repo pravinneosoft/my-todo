@@ -1,0 +1,12 @@
+.horizontal_layout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+  border: 1px solid #000;
+}
+.inner{
+    width: 30%;
+  flex-grow: 1;
+}
